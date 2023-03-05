@@ -11,7 +11,7 @@ class DecryptBody(BaseModel):
     privkey: list    
 
 # APP definition
-app = FastAPI(title="Crystals-Kyber"
+app = FastAPI(title="Crystals-Kyber",
               description="Implementation of Crystals-Kyber")
 
 
