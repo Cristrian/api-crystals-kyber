@@ -11,7 +11,8 @@ class DecryptBody(BaseModel):
     privkey: list    
 
 # APP definition
-app = FastAPI()
+app = FastAPI(title="Crystals-Kyber"
+              description="Implementation of Crystals-Kyber")
 
 
 @app.get("/generate-pair")
